@@ -1,8 +1,31 @@
 .introduction{
-              margin-left: 10px;
-              font-size: lg;
+              margin-left: 20px;
+              font-size: 30px;
 }
 
 h1{
+    font-size: 50px;
     text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("Topo1.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
