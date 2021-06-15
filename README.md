@@ -5,12 +5,12 @@
 My application/web page works by assigning an Akan name by using your birthday details and gender.
 I used JavaScript due to its ability to carry out logical operations.
 Problems I faced are like:
-* No user interface.
-* does do much apart from basic calculations.
+* Lack of effecient indexing.
+* Lacks proper styling.
 ***
 ## INSTALLATION
 ***
-To view the app, open the Github Pages link provided below on the README. Here is a run through of how to set up the application
+To view the app, open the Github Pages link provided on deployment section . Here is a run through of how to set up the application
 
 * Step 1 : Clone the branch or downloading a ZIP file of the code.
 * Step 2 : The repository, if downloaded as a .zip file will need to be extracted o your preferred location and opened
@@ -18,7 +18,8 @@ To view the app, open the Github Pages link provided below on the README. Here i
 
 ***
 ##  PROCEDURES
-In order to use the web page. You'll receive a prompt to enter numbers that will be processed to the desired output.
+In order to use the web page. You'll have to enter data into the form like your birthday and gender,then click on submit it will then bring an alert
+that will contain the day you were born and your respective Akan name
 ***
 ## CONTACTS
 You can contact me through the following email dankkinoti@gmail.com
