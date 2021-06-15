@@ -1,58 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-    <head>
-          <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-          <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-          <link href="css/styles.css" rel="stylesheet" type="text/css">
-          <title>AkanCalculator</title>
-    </head>
+<head>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Akan Name Generator</title>
+</head>
+<body>
+       <div class="bg">
+         <br>
+         <h1>WELCOME TO THE <strong><em>AKAN</em> CALCULATOR</strong></h1>
+         <br>
+         <h2>Introduction</h2>
+         <br>
+     <div class="introduction">
+         <p>
+           The Akan calculator is a handy application that determines your Akan name.
+         </p>
+         <p>
+           The Calculator does this by using your birthday details such as:
+           <ol>
+             <li>Century your born e.g 1900 or 2000</li>
+             <li>Year e.g 2002 or 2012 (The last two digits)</li>
+             <li>The month e.g October</li>
+             <li>The day e.g 19th</li>
+           </ol>
+           And finally using your gender.
+         </p>
+         <br>
+         <p>
+           This is one step to getting closer to the Ghanian culture!:)
+         </p>
+     </div>
+            <h2>To find out your Akan Name, fill out this form</h2>
 
-    <body>
-        <div class="bg">
-          <br>
-          <h1>WELCOME TO THE <strong><em>AKAN</em> CALCULATOR</strong></h1>
-          <br>
-          <h2>Introduction</h2>
-          <br>
-      <div class="introduction">
-          <p>
-            The Akan calculator is a handy application that determines your Akan name.
-          </p>
-          <p>
-            The Calculator does this by using your birthday details such as:
-            <ol>
-              <li>Century your born e.g 1900 or 2000</li>
-              <li>Year e.g 2002 or 2012 (The last two digits)</li>
-              <li>The month e.g October</li>
-              <li>The day e.g 19th</li>
-            </ol>
-            And finally using your gender.
-          </p>
-          <br>
-          <p>
-            This is one step to getting closer to the Ghanian culture!:)
-          </p>
-      </div>
-      <div class="Form">
-        <form>
-          Century born:<br><input type="number" name="Century">
-          <br>
-          Year born:<br><input type="number" name="Year">
-          <br>
-          Month born:<br><input type="number" name="Month">
-          <br>
-          Day born:<br><input type="number" name="Day">
-          <br>
-          <select name="dropdown">
-            <option value="Male" selected>Male</option>
-            <option value="Female">Female</option>
-          </select>
-          <br>
-          <input type="reset" value="Reset">
-      </form>
-      </div>
-      </div>
-    </body>
+            <form id="akanForm">
+                <label for="gender">Gender</label>
+                <div class="selectbox">
+                    <select id="gender" required>
+                      <option value="female">Female</option>
+                      <option value="male">Male</option>
+                    </select>
+                </div>
+
+                <label for="Date">Date of Birth</label><br>
+                <input id="date" type="Date" required><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
 
 </html>
