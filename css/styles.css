@@ -1,3 +1,75 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+input {
+    display: block;
+    width: 70%;
+    height: 37px;
+    border-width: 0 0 2px 0;
+    border-color: #333;
+    background-color: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    color: #333;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+::placeholder {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-style: italic;
+}
+
+.selectbox select {
+    width: 70%;
+    border-width: 2px;
+    border-radius: 7px;
+    border-color: rgb(181, 222, 243);
+    background-color: rgb(181, 222, 243);
+    color: #333;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    width: 70%;
+    border-width: 2px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    border-color: rgb(181, 222, 243);
+    background-color: rgb(181, 222, 243);
+    color: #333;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.introduction{
+              margin-left: 20px;
+              font-size: 30px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+body, html {
+  height: 100%;
+}
+
 .introduction{
               margin-left: 20px;
               font-size: 30px;
@@ -19,7 +91,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("Topo1.jpg");
+  background-image: url("Topo5.jpg");
 
   /* Full height */
   height: 100%;
